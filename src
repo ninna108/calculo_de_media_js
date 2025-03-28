@@ -1,0 +1,31 @@
+public class Media
+{
+    private String NomeAluno;
+    private double nota1;
+    private double nota2;
+    private double media;
+    
+    public void Media(String n, double n1,double n2)
+    {
+        NomeAluno = n;
+        nota1 = n1;
+        nota2 = n2;
+    }
+    
+    
+    public void CalcularMedia()
+    {
+        media = (nota1 + nota2) / 2;
+        media = media;
+    }
+    
+    public void ExibirMedia()
+    {
+        System.out.println("NOME:  " + NomeAluno);
+        System.out.println("NOTA 1: " + nota1);
+        System.out.println("NOTA 2: " + nota2);
+        System.out.println("MÉDIA:  " + media);
+    }
+    
+    
+}
